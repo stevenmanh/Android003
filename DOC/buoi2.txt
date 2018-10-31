@@ -1,0 +1,8 @@
+- Activity
+- Cac loai layout 
+ + LinearLayout
+ + RelativeLayout
+ + FrameLayout
+
+- Cac loai view 
+ + Button, Image, text, edittext, 
