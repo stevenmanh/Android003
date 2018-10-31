@@ -1,4 +1,4 @@
-package windstudy.com.androidgopro;
+package windstudy.com.androidtutorial;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("windstudy.com.androidgopro", appContext.getPackageName());
+        assertEquals("windstudy.com.androidtutorial", appContext.getPackageName());
     }
 }

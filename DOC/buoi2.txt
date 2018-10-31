@@ -6,3 +6,7 @@
 
 - Cac loai view 
  + Button, Image, text, edittext, 
+
+- Giống như xây dựng thư viện :
+MỖI PHÒNG LÀ 1 ACTIVITY 
+MỖI FILE LAYOUT NHƯ 1 CÁI GIÁ SÁCH LỚN CHƯA NHIỀU GIÁ SÁCH CON, MỖI GIÁ SÁCH CON CHỨA NHIỀU QUYỀN SÁCH.

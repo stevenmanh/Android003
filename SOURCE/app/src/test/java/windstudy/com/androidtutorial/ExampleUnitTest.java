@@ -1,4 +1,4 @@
-package windstudy.com.androidgopro;
+package windstudy.com.androidtutorial;
 
 import org.junit.Test;
 
