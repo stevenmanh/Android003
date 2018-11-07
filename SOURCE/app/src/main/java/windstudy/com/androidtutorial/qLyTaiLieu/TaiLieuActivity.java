@@ -14,8 +14,7 @@ public class TaiLieuActivity extends AppCompatActivity {
     EditText edtID, edtProducer, edtCount;
     TextView tvContent;
     Button btnSave;
-
-
+    
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
