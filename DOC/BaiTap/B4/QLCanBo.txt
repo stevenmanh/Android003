@@ -1,0 +1,7 @@
+Xây dựng các class :
+- Cán bộ : Họ tên , năm sinh, giới tính, địa chỉ
+- công nhân : như cán bộ thêm thuộc tính Bậc (từ 1 -7)
+- Kỹ sư : như cán bộ thêm thuộc tính : Ngành đào tạo, Công việc (String)
+
+Xây dựng các hàm thêm sửa xóa , lấy thuộc tính của các class.
+Tạo các 3 activity với chức năng thêm cán bộ, công nhân ,kỹ sư.
