@@ -22,7 +22,7 @@ public class TaiLieuActivity extends AppCompatActivity {
         setContentView(R.layout.tai_lieu_layout);
         init();
     }
-    
+
     void init() {
         edtID = findViewById(R.id.edt_id);
         edtProducer = findViewById(R.id.edt_producer);
