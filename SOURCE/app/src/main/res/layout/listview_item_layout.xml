@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_prefix"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/cirle_bg"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="#dfdfdf"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:text="Nguyễn Trường Thăng"
+        android:textColor="#282828"
+        android:textSize="17sp" />
+
+</LinearLayout>
