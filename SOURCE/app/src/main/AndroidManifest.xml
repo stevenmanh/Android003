@@ -12,15 +12,19 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".qLyTaiLieu.SachActivity" />
         <activity android:name=".qLyTaiLieu.TaiLieuActivity" />
-        <activity android:name=".setting.SettingActivity"></activity>
+        <activity android:name=".setting.SettingActivity" />
         <activity
             android:name=".ConfirmCodeActivity"
             android:label="@string/title_activity_confirm_code"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".listview.ListViewDemoActivity"
             android:label="@string/title_activity_list_view_demo"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".listview.AndroidStudentActivity"
+            android:label="@string/title_activity_android_student"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -11,9 +11,9 @@ import java.util.ArrayList;
 
 import windstudy.com.androidtutorial.R;
 
-public class Android003Adapter extends BaseAdapter {
+public class AndroidStudentAdapter extends BaseAdapter {
 
-    ArrayList<String> data;
+    ArrayList<AndroidStudent> data;
     Context context;
 
     @Override
@@ -33,31 +33,22 @@ public class Android003Adapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
+        AndroidStudent androidStudent = data.get(i);
         ViewHolder viewHolder;
         if (view == null) {
-            // lay view tu file xml
-            view = LayoutInflater.from(context).inflate(R.layout.listview_item_layout, viewGroup, false);
             viewHolder = new ViewHolder();
-            viewHolder.tvPrefix = view.findViewById(R.id.tv_prefix);
+            view = LayoutInflater.from(context).inflate(R.layout.android_student_item_layout, viewGroup, false);
             viewHolder.tvName = view.findViewById(R.id.tv_name);
             view.setTag(viewHolder);
         } else {
             viewHolder = (ViewHolder) view.getTag();
         }
-        // hien thi noi dung vao view
-        String name = data.get(i);
-        viewHolder.tvName.setText(name);
-        String prefix = String.valueOf(name.charAt(0));
-        viewHolder.tvPrefix.setText(prefix);
+        viewHolder.tvName.setText(androidStudent.getName() + androidStudent.getPhoneNumber());
         return view;
     }
 
-    // dung viewholder de tang hieu nang cho listview
     class ViewHolder {
-        TextView tvPrefix;
         TextView tvName;
-        public ViewHolder() {
-
-        }
     }
+
 }
